@@ -9,9 +9,9 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "enter your session",
     CAPTION: process.env.CAPTION || "code by yessertech ",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-    AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
-    READ_MESSAGE: process.env.READ_MESSAGE || "true", // Added auto-read configuration
-    MODE: process.env.MODE || "public",
+    AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
+    READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
+    MODE: process.env.MODE || "private",
     AUTO_VOICE: process.env.AUTO_VOICE || "true",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -24,7 +24,7 @@ module.exports = {
     FAKE_TYPING: process.env.FAKE_TYPING || "false",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
-    AUTO_REACT: process.env.AUTO_REACT || "true",
+    AUTO_REACT: process.env.AUTO_REACT || "false",
     HEART_REACT: process.env.HEART_REACT || "true",
     OWNER_REACT: process.env.OWNER_REACT || "true",
     BOT_NAME: process.env.BOT_NAME || "yessertech",
